@@ -1,6 +1,6 @@
 # Fine-Tuning DistilBERT for Sentiment Analysis
 
-This repository contains a Jupyter Notebook (`fine_tuning.ipynb`) for fine-tuning a pre-trained DistilBERT model to perform sentiment analysis on the IMDB dataset. The notebook provides step-by-step instructions for preparing the dataset, tokenizing the data, fine-tuning the model, evaluating its performance, and comparing it with a baseline model.
+This repository contains a Jupyter Notebook (`fine_tuning.ipynb`) for fine-tuning a pre-trained DistilBERT model to perform sentiment analysis on the IMDB dataset. The notebook provides step-by-step instructions for preparing the dataset, tokenizing the data, fine-tuning the model, evaluating its performance, and comparing it with a baseline model. The main goal of this project is to demonstrate how to leverage transfer learning to build a sentiment analysis model using a pre-trained language model. The main deep learning framework used in this project is PyTorch, and the Hugging Face Transformers library is used to work with the DistilBERT model.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -42,6 +42,9 @@ The notebook demonstrates how to fine-tune the DistilBERT model using the tokeni
 
 ## Evaluation
 After fine-tuning, the model is evaluated on the test set to assess its performance. The evaluation metrics include accuracy, precision, recall, and F1-score.
+
+## Inference
+The notebook includes examples of how to perform inference using the fine-tuned model on custom sentences. This section demonstrates the model's ability to predict the sentiment of unseen text.
 
 ## Baseline Comparison
 To highlight the improvement achieved by fine-tuning, the notebook compares the fine-tuned model's performance with a non-fine-tuned baseline model. This comparison helps illustrate the effectiveness of the fine-tuning process.
